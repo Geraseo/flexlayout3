@@ -1,0 +1,175 @@
+* {
+        margin: 0;
+        box-sizing: border-box;
+}
+body {
+        width: 100vw;
+        height: 100vh;
+}
+.container {
+        width: 100%;
+        height: 100%;
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(152, 191, 152);
+        padding: 2%;
+}
+header{
+        height: 10%;
+        width: 100%;
+        background-color: rgb(137, 223, 137);
+        margin: 1% 0;
+        display: flex;
+        justify-content: space-around;
+}
+footer {
+        height: 5%;
+        width: 100%;
+        background-color: rgb(137, 223, 137);
+        margin: 1% 0;
+        font-size: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+}
+
+main {
+        height: 80%;
+        width: 80%;
+        background-color: rgb(211, 255, 211);
+
+}
+nav {
+        width: 20%;
+        background-color: rgb(137, 223, 137);
+}
+.head1 {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.head1 > a{
+        text-decoration: none;
+        background-color: rgba(40, 102, 40, 0.352);
+        height: 30%;
+        width: 15%;
+        color:  white;
+        font-size: 1vh;
+        font-size: 1vw;
+        padding: 0.1% 0.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: fantasy; 
+        border-radius: 10%;
+
+
+}
+.head1 > a:hover {
+        font-size: 3vw;
+        font-size: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(211, 255, 211);
+        color: rgb(0, 0, 0);
+        box-shadow: 0.1vw 0.1vw;
+        border-radius: 20%;
+        height: 80%;
+        transition: 0.5s;
+
+}
+.head2 {
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+}
+.head2 > button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+        height: 45%;
+        width: 35%;
+
+}
+.head2 > input {
+        height: 50%;
+        width: 50%;
+}
+
+.searchb {
+        width: 10%;
+}
+
+nav {
+
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: flex-start;
+
+}
+nav > h2 {
+        font-size: 3vw;
+        margin: 5%;
+        font-family: fantasy; 
+}
+
+.list > ul > li {
+        font-size: 1vw;
+        margin: 8% 5% 0 0;
+
+}
+main > .artheading > h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        font-family: fantasy; 
+
+}
+.cursedcat > img {
+        margin-top: 2%;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+}
+.cursedcat{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 0.9vw;
+}
+.cursedcat > img:hover {
+        transition: 0.5s;
+        width: 20%;
+}
+main > div > h2 {
+        margin: 2% 0;
+        font-family: fantasy; 
+
+}
+main {
+        padding: 1%;
+        font-size: 1.2vw;
+        overflow: auto;
+        border: 2vh solid rgb(137, 223, 137);
+}
+footer {
+        font-size: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        color: rgb(77, 117, 84);
+
+}
